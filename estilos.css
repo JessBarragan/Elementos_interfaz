@@ -1,0 +1,127 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana black ;
+	color: black;
+}
+
+section{
+	position: relative;
+	width: 60%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo{
+	position: relative;
+	max-width: 70px;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+
+}
+
+header ul li{
+	list-style: none;
+}
+
+header ul li a{
+	display: inline-block;
+	color: #333;
+	font-weight: 250;
+	margin-left: 30px;
+
+	text-decoration:none; 
+}
+
+.contenido{
+	position: relative;
+	width: 100%
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contenido .textBox{
+	position: relative;
+	max-width: 600px;
+}
+
+.contenido .textBox h2{
+	color: #333;
+	font-family: cursive;
+	line-height: 1.0em;
+	font-size: small 30px;
+	font-style: italic;
+	opacity: 90%;
+}
+.contenido .textBox b{
+	color: black;
+	font-family: fantasy;
+	line-height: 1.0em;
+	font-size: 65px;
+	text-align: left;
+	font-weight: bold;
+	
+}
+p.georgia{
+	color: black;
+	font-family: arial;
+	line-height: 1.5em;
+	font-size: 25px;
+
+	font-style: italic;
+
+}
+p.antiqua{
+	font-size: small;
+	line-height: 1.0em;
+	font-family: droid sans mono
+}
+
+ .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: arial;
+    color: white;
+    background-color: #18803C;
+    border-radius: 0px;
+    border: none;
+    line-height: 2em;
+    margin-left: 15px;
+  }
+
+  html {
+    height: 100%;
+    background-color: green;
+}
+
+body {
+    height: 100%;
+    background-image: url(cafe.jpg);
+    background-repeat: repeat-y;
+    background-size: 50% auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
